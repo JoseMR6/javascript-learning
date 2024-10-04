@@ -1,0 +1,9 @@
+cd carpetaModulos
+npm install rollup --save-dev 
+
+npx rollup src/index.js -o public/bundle.js -f cjs  //crear js compilado de forma manual
+//crear rollup.config.mjs
+npx rollup -c   //crear js compilado de forma manual pero reducido por tener config
+//añadir script build de rollup a packaje.json
+
+npm run build
